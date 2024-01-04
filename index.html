@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="music-box">
+            <nav>
+                <div class="circle circle-1">
+                <i class="ri-arrow-drop-left-line"></i> 
+                </div>
+                <div class="circle">
+              <i class="ri-menu-fill"></i>
+               </div>
+            </nav>
+            <img src="girl.jpg" alt="girl" class="thumbnail">
+            <h1>Despacito</h1>
+            <p>Luis fonsi Ft. Pureto Rican</p>
+            <audio id="song">
+               <source src="audio.aac" type="audio/aac"></source>               
+            </audio>
+            <input type="range" value="0" id="progress">
+            
+            <div class="controls">
+                <div><i class="ri-skip-left-fill"></i></div>
+                <div onclick="playPause()"><i class="ri-play-fill" id="ctrlBtn"></i></div>
+                <div><i class="ri-skip-right-fill"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
