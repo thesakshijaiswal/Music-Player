@@ -30,3 +30,9 @@ progress.onchange = function () {
   ctrlBtn.classList.remove("ri-play-fill");
   ctrlBtn.classList.add("ri-pause-line");
 };
+function skipBack() {
+    song.currentTime -= 10;
+}
+function skipForward() {
+    song.currentTime += 10;
+}
