@@ -1,2 +1,3 @@
-# Music-Player-
-A responsive music player card made using html, css and js
+# Music-Player🎵
+![Music player](utils/MusicApp)
+A responsive music player card that utilizes HTML **media tags**, CSS **media queries** and Some useful selectors in JavaScript
